@@ -1,0 +1,19 @@
+channels: 
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - numpy
+  - requests
+  - pandas
+  - matplotlib
+  - tensorboard
+  - jupyterlab
+  - python-multipart
+  - pytorch
+  - torchvision
+  - cudatoolkit=10.0
+  - pip:
+    - opencv-python
+    - tqdm
